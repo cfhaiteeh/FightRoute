@@ -1,0 +1,1 @@
+ c++ -O3 -Wall -shared -std=c++11 -undefined dynamic_lookup -I /Users/cfhaiteeh/pybind11/include/ -I /Library/Frameworks/Python.framework/Versions/3.7/include/python3.7m/ `python3 -m pybind11 --includes` c++_set.cpp -o cpp_set`python3-config --extension-suffix`

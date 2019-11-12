@@ -1,0 +1,1 @@
+python3 main_function.py --top5 1  --data_path data/data2.csv --alpha1 20 --alpha2 10 --beta1 15 --beta2 20 --thet 20 --delta 0.001
