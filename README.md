@@ -18,12 +18,12 @@ python3 main_function.py
         --prob 是否使用第三题约束
         --top5 是否获取五条最优航迹
 ```
-####第一题运行命令
+#### 第一题运行命令
 ```数据集1 sh ./run_data1.sh```
 
 ```数据集2 sh ./run_data2.sh```
 
-####第二题先生成5跳最优路径长度再确定误差，类似命令
+#### 第二题先生成5跳最优路径长度再确定误差，类似命令
 ```
 生成路径
 数据集1 sh ./run_data1_top5.sh
@@ -34,7 +34,7 @@ python3 main_function.py
 
 ```生成误差 python3   generate_angle_route_error```
 
-####第三题在第一题基础上直接改设置error值为5，命令
+#### 第三题在第一题基础上直接改设置error值为5，命令
 ```生成路径 ```
 
 ```数据集1 sh ./run_data1_prob.sh```
